@@ -1,0 +1,49 @@
+body
+{margin: 0 auto;
+    background: url(https://karavan.ua/wp-content/uploads/2019/07/26070632_165500330875438_7895805634300346368_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .header{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(99, 223, 207);
+    }
+    .footer{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(99, 223, 207);
+    }
+    .main{
+        width: 100%;
+        height: 1100;
+        border: 2px solid rgb(23, 41, 7);
+    }
+    .info{
+        width: 100%;
+        height: 420px;
+        display: flex;
+        flex-direction: row;
+    }
+    .photo{
+        width: 50%;
+        height: 420px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .text{
+        width: 50%;
+        height: 420px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    .words{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .lesson1, .lesson2, .lesson3{
+        width: 300px;
+        height: 150px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 20px;
+    }
